@@ -1,0 +1,15 @@
+{
+  "name": "EightTailCat-Pet",
+  "display_name": "八条猫桌宠",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "dependencies": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "liuwen843-blip",
+  "version": "1.0.0",
+  "homePage": "https://github.com/liuwen843-blip",
+  "auto_update": false,
+  "description": "把八条猫桌宠挂到酒馆页面：气泡吐槽、图片投喂、偷看当前聊天，并可复用酒馆当前模型。"
+}

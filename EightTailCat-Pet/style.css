@@ -1,0 +1,46 @@
+/* 酒馆宿主层：桌宠浮层贴近主体尺寸，便于全视口拖拽。 */
+#pet-container {
+  position: fixed;
+  z-index: 9999;
+  width: min(360px, 90vw);
+  height: min(420px, 75vh);
+  pointer-events: auto;
+  background: transparent;
+  border: 0;
+  overflow: visible;
+  user-select: none;
+}
+
+#pet-container.eighttailcat-expanded {
+  width: min(920px, 96vw);
+  height: min(860px, 96vh);
+}
+
+#pet-container.eighttailcat-hidden {
+  display: none !important;
+}
+
+#pet-container iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color-scheme: none;
+}
+
+#eighttailcat-settings {
+  margin: 0.5rem 0;
+}
+
+#eighttailcat-settings .eighttailcat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#eighttailcat-open-panel,
+#eighttailcat-toggle-pet {
+  cursor: pointer;
+}
